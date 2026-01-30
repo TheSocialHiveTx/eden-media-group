@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborate - Eden Media Group</title>
+    <meta name="description"
+        content="We are always looking for partners who share our commitment to intentional creativity.">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-transparent py-6">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-3 group">
+                <div
+                    class="w-10 h-10 bg-gradient-to-br from-blue-600 to-slate-800 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-blue-500/20 transition-all">
+                    <span class="font-cinzel font-bold text-white text-xl">E</span>
+                </div>
+                <span class="font-cinzel text-xl tracking-widest text-white uppercase">EDEN <span
+                        class="text-slate-500 font-light">MEDIA</span></span>
+            </a>
+
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html"
+                    class="nav-link text-[11px] uppercase tracking-[0.2em] transition-colors hover:text-blue-400 text-slate-300">Home</a>
+                <a href="about.html"
+                    class="nav-link text-[11px] uppercase tracking-[0.2em] transition-colors hover:text-blue-400 text-slate-300">About</a>
+                <div class="relative group">
+                    <button id="brands-dropdown-button"
+                        class="nav-link text-[11px] uppercase tracking-[0.2em] transition-colors flex items-center space-x-1 hover:text-blue-400 text-slate-300">
+                        <span>Our Brands</span>
+                        <svg class="dropdown-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" style="transition: transform 0.3s;">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div id="brands-dropdown-menu" class="dropdown-menu">
+                        <div class="p-2">
+                            <a href="brands.html"
+                                class="block px-4 py-3 text-[10px] uppercase tracking-widest text-slate-500 hover:text-white border-b border-slate-800 mb-1">All
+                                Brands Directory</a>
+                            <a href="brand-motor-toad.html"
+                                class="block px-4 py-3 rounded-lg text-sm text-slate-300 hover:bg-slate-800 hover:text-blue-400 transition-colors">Motor
+                                Toad<span class="block text-[10px] text-slate-500 mt-0.5">Bold</span></a>
+                            <a href="brand-peachy-charms.html"
+                                class="block px-4 py-3 rounded-lg text-sm text-slate-300 hover:bg-slate-800 hover:text-blue-400 transition-colors">Peachy
+                                Charms<span class="block text-[10px] text-slate-500 mt-0.5">Handcrafted</span></a>
+                            <a href="brand-spreading-truth.html"
+                                class="block px-4 py-3 rounded-lg text-sm text-slate-300 hover:bg-slate-800 hover:text-blue-400 transition-colors">Spreading
+                                Truth<span class="block text-[10px] text-slate-500 mt-0.5">Faith-driven</span></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="philosophy.html"
+                    class="nav-link text-[11px] uppercase tracking-[0.2em] transition-colors hover:text-blue-400 text-slate-300">Philosophy</a>
+                <a href="contact.html"
+                    class="nav-link text-[11px] uppercase tracking-[0.2em] transition-colors hover:text-blue-400 text-slate-300">Collaborate</a>
+                <a href="contact.html"
+                    class="px-6 py-2.5 bg-white text-slate-950 hover:bg-blue-400 rounded-full text-[10px] uppercase tracking-widest font-bold transition-all">Join
+                    Us</a>
+            </div>
+
+            <button id="mobile-menu-button" class="md:hidden text-white"><svg width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2">
+                    <use href="#icon-menu"></use>
+                </svg></button>
+        </div>
+
+        <div id="mobile-menu"
+            class="mobile-menu md:hidden absolute top-full left-0 w-full bg-[#020617] border-b border-slate-800">
+            <div class="p-6 flex flex-col space-y-4">
+                <a href="index.html"
+                    class="text-lg font-cinzel tracking-widest text-slate-300 hover:text-blue-400">Home</a>
+                <a href="about.html"
+                    class="text-lg font-cinzel tracking-widest text-slate-300 hover:text-blue-400">About</a>
+                <a href="brands.html" class="text-lg font-cinzel tracking-widest text-slate-300 hover:text-blue-400">Our
+                    Brands</a>
+                <div class="pl-6 space-y-3 border-l border-slate-800">
+                    <a href="brand-motor-toad.html" class="block text-slate-500 hover:text-blue-400 text-sm">Motor
+                        Toad</a>
+                    <a href="brand-peachy-charms.html" class="block text-slate-500 hover:text-blue-400 text-sm">Peachy
+                        Charms</a>
+                    <a href="brand-spreading-truth.html"
+                        class="block text-slate-500 hover:text-blue-400 text-sm">Spreading Truth</a>
+                </div>
+                <a href="philosophy.html"
+                    class="text-lg font-cinzel tracking-widest text-slate-300 hover:text-blue-400">Philosophy</a>
+                <a href="contact.html"
+                    class="text-lg font-cinzel tracking-widest text-slate-300 hover:text-blue-400">Collaborate</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="pt-32 pb-20 px-6">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+                    <div>
+                        <h1 class="text-5xl md:text-6xl font-cinzel text-white mb-8">Collaborate</h1>
+                        <p class="text-xl text-slate-400 font-light leading-relaxed mb-12">
+                            We are always looking for partners who share our commitment to intentional creativity.
+                        </p>
+
+                        <div class="space-y-12">
+                            <div class="group">
+                                <h3 class="text-blue-400 text-xs uppercase tracking-widest mb-4">Who We Collaborate With
+                                </h3>
+                                <p class="text-slate-300">Creators, brands, ministries, and visionaries who believe
+                                    media should have depth.</p>
+                            </div>
+
+                            <div class="group">
+                                <h3 class="text-blue-400 text-xs uppercase tracking-widest mb-4">What We're Open To</h3>
+                                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-slate-400 text-sm">
+                                    <li class="flex items-center space-x-2">
+                                        <div class="w-1.5 h-1.5 bg-blue-500 rounded-full"></div><span>Brand
+                                            Development</span>
+                                    </li>
+                                    <li class="flex items-center space-x-2">
+                                        <div class="w-1.5 h-1.5 bg-blue-500 rounded-full"></div><span>Storytelling
+                                            Projects</span>
+                                    </li>
+                                    <li class="flex items-center space-x-2">
+                                        <div class="w-1.5 h-1.5 bg-blue-500 rounded-full"></div><span>Media
+                                            Strategy</span>
+                                    </li>
+                                    <li class="flex items-center space-x-2">
+                                        <div class="w-1.5 h-1.5 bg-blue-500 rounded-full"></div><span>Art Collective
+                                            Drops</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="pt-10 space-y-4">
+                                <div
+                                    class="flex items-center space-x-4 text-slate-400 hover:text-white transition-colors">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                    <span>hello@edenmediagroup.com</span>
+                                </div>
+                                <div
+                                    class="flex items-center space-x-4 text-slate-400 hover:text-white transition-colors">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <circle cx="18" cy="5" r="3"></circle>
+                                        <circle cx="6" cy="12" r="3"></circle>
+                                        <circle cx="18" cy="19" r="3"></circle>
+                                        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                                        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                                    </svg>
+                                    <span>@edenmediagroup</span>
+                                </div>
+                                <div
+                                    class="flex items-center space-x-4 text-slate-400 hover:text-white transition-colors">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                    <span>Based in the Global Digital Ecosystem</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900/50 rounded-3xl border border-slate-800 p-8 md:p-12">
+                        <form id="contact-form" class="space-y-6">
+                            <div class="space-y-2">
+                                <label class="text-xs uppercase tracking-[0.2em] text-slate-500 ml-1">Full Name</label>
+                                <input required type="text" name="name"
+                                    class="w-full bg-slate-950 border border-slate-800 rounded-xl px-5 py-3 text-white focus:ring-1 focus:ring-blue-500 outline-none transition-all"
+                                    placeholder="John Doe">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-xs uppercase tracking-[0.2em] text-slate-500 ml-1">Email
+                                    Address</label>
+                                <input required type="email" name="email"
+                                    class="w-full bg-slate-950 border border-slate-800 rounded-xl px-5 py-3 text-white focus:ring-1 focus:ring-blue-500 outline-none transition-all"
+                                    placeholder="john@example.com">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-xs uppercase tracking-[0.2em] text-slate-500 ml-1">Inquiry
+                                    Type</label>
+                                <select name="inquiry"
+                                    class="w-full bg-slate-950 border border-slate-800 rounded-xl px-5 py-3 text-white focus:ring-1 focus:ring-blue-500 outline-none transition-all appearance-none">
+                                    <option>General Collaboration</option>
+                                    <option>Brand Partnership</option>
+                                    <option>Ministry Inquiry</option>
+                                    <option>Creative Collective</option>
+                                </select>
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-xs uppercase tracking-[0.2em] text-slate-500 ml-1">Message</label>
+                                <textarea required name="message" rows="5"
+                                    class="w-full bg-slate-950 border border-slate-800 rounded-xl px-5 py-3 text-white focus:ring-1 focus:ring-blue-500 outline-none transition-all resize-none"
+                                    placeholder="Tell us about your vision..."></textarea>
+                            </div>
+                            <button type="submit"
+                                class="w-full py-4 bg-white text-slate-950 rounded-xl text-xs uppercase tracking-[0.3em] font-bold hover:bg-blue-400 transition-all shadow-lg shadow-blue-900/10">
+                                Send Inquiry
+                            </button>
+                        </form>
+
+                        <div id="form-success" class="hidden text-center py-20">
+                            <div
+                                class="w-16 h-16 bg-blue-600/20 text-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                            </div>
+                            <h2 class="text-2xl font-cinzel text-white mb-4">Inquiry Received</h2>
+                            <p class="text-slate-400 leading-relaxed max-w-xs mx-auto">Thank you for reaching out. An
+                                Eden strategist will review your inquiry with intention.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#01040a] pt-20 pb-10 px-6 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
+                <div class="col-span-1 md:col-span-1">
+                    <a href="index.html" class="flex items-center space-x-3 mb-6">
+                        <div
+                            class="w-8 h-8 bg-blue-600 rounded flex items-center justify-center font-cinzel font-bold text-white">
+                            E</div>
+                        <span class="font-cinzel text-lg tracking-widest text-white uppercase">Eden Media</span>
+                    </a>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-8">A creative sanctuary for brands built on
+                        passion, purpose, and timeless truth.</p>
+                    <div class="flex items-center space-x-4">
+                        <a href="#" class="text-slate-500 hover:text-blue-400 transition-colors"><svg width="18"
+                                height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg></a>
+                        <a href="#" class="text-slate-500 hover:text-blue-400 transition-colors"><svg width="18"
+                                height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                </path>
+                            </svg></a>
+                        <a href="#" class="text-slate-500 hover:text-blue-400 transition-colors"><svg width="18"
+                                height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg></a>
+                        <a href="#" class="text-slate-500 hover:text-blue-400 transition-colors"><svg width="18"
+                                height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white font-cinzel text-sm uppercase tracking-widest mb-6">Quick Links</h4>
+                    <ul class="space-y-4">
+                        <li><a href="index.html"
+                                class="text-slate-500 hover:text-blue-400 text-sm transition-colors">Home</a></li>
+                        <li><a href="about.html"
+                                class="text-slate-500 hover:text-blue-400 text-sm transition-colors">About</a></li>
+                        <li><a href="brands.html"
+                                class="text-slate-500 hover:text-blue-400 text-sm transition-colors">Our Brands</a></li>
+                        <li><a href="philosophy.html"
+                                class="text-slate-500 hover:text-blue-400 text-sm transition-colors">Philosophy</a></li>
+                        <li><a href="contact.html"
+                                class="text-slate-500 hover:text-blue-400 text-sm transition-colors">Collaborate</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-cinzel text-sm uppercase tracking-widest mb-6">Our Brands</h4>
+                    <ul class="space-y-4">
+                        <li><a href="brand-motor-toad.html"
+                                class="text-slate-500 hover:text-blue-400 text-sm transition-colors">Motor Toad</a></li>
+                        <li><a href="brand-peachy-charms.html"
+                                class="text-slate-500 hover:text-blue-400 text-sm transition-colors">Peachy Charms</a>
+                        </li>
+                        <li><a href="brand-spreading-truth.html"
+                                class="text-slate-500 hover:text-blue-400 text-sm transition-colors">Spreading Truth</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-cinzel text-sm uppercase tracking-widest mb-6">Newsletter</h4>
+                    <p class="text-slate-500 text-xs mb-4">Join "The Eden Dispatch" for quarterly insights on creativity
+                        and intention.</p>
+                    <div class="flex"><input type="email" placeholder="Email Address"
+                            class="flex-1 bg-slate-900 border border-slate-800 rounded-l-lg px-4 py-2 text-xs text-white focus:outline-none focus:ring-1 focus:ring-blue-500"><button
+                            class="bg-blue-600 text-white px-4 py-2 rounded-r-lg text-[10px] uppercase tracking-widest font-bold hover:bg-blue-500 transition-colors">Join</button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="pt-10 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center text-slate-600 text-[10px] uppercase tracking-widest">
+                <p>&copy; 2026 Eden Media Group. All Rights Reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0"><a href="#" class="hover:text-blue-400">Privacy Policy</a><a
+                        href="#" class="hover:text-blue-400">Terms of Use</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <svg style="display: none;">
+        <symbol id="icon-menu" viewBox="0 0 24 24">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+        </symbol>
+        <symbol id="icon-x" viewBox="0 0 24 24">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+        </symbol>
+    </svg>
+
+    <script src="js/data.js"></script>
+    <script src="js/navigation.js"></script>
+    <script>
+        // Simple form handling
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            // Hide form, show success message
+            this.style.display = 'none';
+            document.getElementById('form-success').classList.remove('hidden');
+        });
+    </script>
+</body>
+
+</html>
