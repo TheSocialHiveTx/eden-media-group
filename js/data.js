@@ -8,8 +8,8 @@ const BRANDS = [
     description: 'A platform dedicated to expressive design and rebellious creativity, breaking through the noise of common trends.',
     values: ['Authenticity', 'Expression', 'Innovation'],
     tone: 'Bold, expressive, creative',
-    image: 'https://images.unsplash.com/photo-1558981403-c5f91cbba527?auto=format&fit=crop&q=80&w=800',
-    externalLink: '#'
+    image: 'images/Motortoad logo.png',
+    externalLink: 'https://motortoad.com'
   },
   {
     id: 'peachy-charms',
@@ -18,8 +18,8 @@ const BRANDS = [
     description: 'Bringing warmth and personality to everyday life through carefully crafted accessories and heartfelt designs.',
     values: ['Craftsmanship', 'Joy', 'Personal Connection'],
     tone: 'Handcrafted, joyful, personal',
-    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800',
-    externalLink: '#'
+    image: 'images/Screenshot 2026-01-30 143524.png',
+    externalLink: 'https://peachycharms.com'
   },
   {
     id: 'spreading-truth',
@@ -28,8 +28,8 @@ const BRANDS = [
     description: 'Utilizing modern media tools to communicate timeless truths and inspire deeper connection with faith.',
     values: ['Truth', 'Integrity', 'Impact'],
     tone: 'Faith-driven, message-focused',
-    image: 'https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&q=80&w=800',
-    externalLink: '#'
+    image: 'images/Screenshot 2026-01-30 143639.png',
+    externalLink: 'https://spreadingtruth.com'
   }
 ];
 
