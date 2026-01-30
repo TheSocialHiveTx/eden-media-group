@@ -1,24 +1,12 @@
 {
-  "name": "eden-media-group---creative-ecosystem",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "eden-media-group",
+  "version": "1.0.0",
+  "description": "Eden Media Group - A creative ecosystem for brands that inspire, challenge, and connect",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "npx http-server . -p 3000 -o",
+    "start": "npx http-server . -p 3000"
   },
-  "dependencies": {
-    "@google/genai": "^1.38.0",
-    "react": "^19.2.4",
-    "react-router-dom": "^7.13.0",
-    "lucide-react": "^0.563.0",
-    "react-dom": "^19.2.4"
-  },
-  "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
-  }
+  "keywords": ["static-site", "html", "eden-media"],
+  "author": "",
+  "license": "MIT"
 }

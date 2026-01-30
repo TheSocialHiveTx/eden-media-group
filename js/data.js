@@ -1,7 +1,6 @@
+// Shared data constants for Eden Media Group
 
-import { Brand, NavItem } from './types';
-
-export const BRANDS: Brand[] = [
+const BRANDS = [
   {
     id: 'motor-toad',
     name: 'Motor Toad',
@@ -34,10 +33,16 @@ export const BRANDS: Brand[] = [
   }
 ];
 
-export const NAV_ITEMS: NavItem[] = [
-  { label: 'Home', path: '/' },
-  { label: 'About', path: '/about' },
-  { label: 'Our Brands', path: '/brands' },
-  { label: 'Philosophy', path: '/philosophy' },
-  { label: 'Collaborate', path: '/contact' }
+const NAV_ITEMS = [
+  { label: 'Home', path: 'index.html' },
+  { label: 'About', path: 'about.html' },
+  { label: 'Our Brands', path: 'brands.html' },
+  { label: 'Philosophy', path: 'philosophy.html' },
+  { label: 'Collaborate', path: 'contact.html' }
+];
+
+const LATEST_POSTS = [
+  { title: "The Art of Slow Growth", date: "Oct 12, 2024", excerpt: "Why we choose duration over trends in a fast-paced media landscape." },
+  { title: "Roots and Wings", date: "Sep 28, 2024", excerpt: "How our foundation of faith empowers creative risk-taking." },
+  { title: "Designing for Meaning", date: "Sep 05, 2024", excerpt: "A deep dive into the semiotics of the Eden Media ecosystem." }
 ];
